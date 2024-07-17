@@ -6,6 +6,7 @@ export const readline = createInterface({
     output: process.stdout
 });
 
+// adding a few things
 async function main() {
     while(true) {
         console.clear();
@@ -38,6 +39,7 @@ async function main() {
         }
     }
 }
+// yaaaaaay
 
 await main();
 
